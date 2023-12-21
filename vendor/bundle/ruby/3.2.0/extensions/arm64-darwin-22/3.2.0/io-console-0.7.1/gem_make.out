@@ -1,0 +1,27 @@
+current directory: /Users/donshin/Rails/instagram/vendor/bundle/ruby/3.2.0/gems/io-console-0.7.1/ext/io/console
+/Users/donshin/.rvm/rubies/ruby-3.2.2/bin/ruby extconf.rb
+checking for rb_io_path()... no
+checking for rb_io_descriptor()... yes
+checking for rb_io_get_write_io()... yes
+checking for rb_io_closed_p()... no
+checking for rb_io_open_descriptor()... no
+checking for termios.h... yes
+checking for cfmakeraw() in termios.h... yes
+checking for sys/ioctl.h... yes
+checking for HAVE_RUBY_FIBER_SCHEDULER_H... yes
+creating Makefile
+
+current directory: /Users/donshin/Rails/instagram/vendor/bundle/ruby/3.2.0/gems/io-console-0.7.1/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20231221-51216-ffjnxx sitelibdir\=./.gem.20231221-51216-ffjnxx clean
+
+current directory: /Users/donshin/Rails/instagram/vendor/bundle/ruby/3.2.0/gems/io-console-0.7.1/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20231221-51216-ffjnxx sitelibdir\=./.gem.20231221-51216-ffjnxx
+compiling console.c
+linking shared-object io/console.bundle
+
+current directory: /Users/donshin/Rails/instagram/vendor/bundle/ruby/3.2.0/gems/io-console-0.7.1/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20231221-51216-ffjnxx sitelibdir\=./.gem.20231221-51216-ffjnxx install
+/opt/homebrew/opt/coreutils/bin/ginstall -c -m 0755 console.bundle ./.gem.20231221-51216-ffjnxx/io
+
+current directory: /Users/donshin/Rails/instagram/vendor/bundle/ruby/3.2.0/gems/io-console-0.7.1/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20231221-51216-ffjnxx sitelibdir\=./.gem.20231221-51216-ffjnxx clean
