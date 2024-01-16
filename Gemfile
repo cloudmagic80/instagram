@@ -28,6 +28,8 @@ gem "jbuilder"
 gem 'bootstrap', '~> 5.3.2'
 gem 'dartsass-sprockets'
 gem 'devise'
+gem "font-awesome-sass", "~> 6.5.1"
+
 # Use Redis adapter to run Action Cable in production
 gem "redis", ">= 4.0.1"
 

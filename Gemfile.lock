@@ -123,6 +123,9 @@ GEM
       ruby2_keywords
     erubi (1.12.0)
     execjs (2.9.1)
+    ffi (1.16.3)
+    font-awesome-sass (6.5.1)
+      sassc (~> 2.0)
     globalid (1.2.1)
       activesupport (>= 6.1)
     google-protobuf (3.25.1)
@@ -253,6 +256,8 @@ GEM
       google-protobuf (~> 3.23)
     sass-embedded (1.66.1-x86_64-linux-gnu)
       google-protobuf (~> 3.23)
+    sassc (2.4.0)
+      ffi (~> 1.9)
     selenium-webdriver (4.16.0)
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
@@ -313,6 +318,7 @@ DEPENDENCIES
   dartsass-sprockets
   debug
   devise
+  font-awesome-sass (~> 6.5.1)
   importmap-rails
   jbuilder
   puma (>= 5.0)
